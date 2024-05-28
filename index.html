@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Tarjeta de Crédito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="titulo" style="text-align: center;">Introduzca los datos de su tarjeta de crédito</h2>
+        <form id="creditCardForm">
+            <label for="cardName">Nombre de la Tarjeta:</label>
+            <input type="text" id="cardName" maxlength="20" required>
+            
+            <label for="cardNumber">Número de la Tarjeta:</label>
+            <input type="text" id="cardNumber" required>
+            
+            <label for="expiryDate">Fecha de Vencimiento (MM/AA):</label>
+            <input type="text" id="expiryDate" required>
+            
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" maxlength="3" required>
+            
+            <button type="submit" id="submitButton" disabled >Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
