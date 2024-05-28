@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
     const cardNameInput = document.getElementById('cardName');
     const cardNumberInput = document.getElementById('cardNumber');
     const expiryDateInput = document.getElementById('expiryDate');
@@ -76,4 +75,4 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Datos enviados correctamente');
         resetForm();
     });
-});
+
